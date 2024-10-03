@@ -1,0 +1,19 @@
+@import '../../vars/vars';
+
+.mainContainer {
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.basic {
+    background-color: $white;
+    color: $black;
+}
+
+.primary {
+    background-color: $primary;
+    color: $white;
+}

@@ -1,0 +1,25 @@
+@import '../../vars/vars';
+
+
+.mainContainer {
+    display: grid;
+    grid-template: 1fr / 1fr 4fr;
+    align-items: center;
+
+    gap: 20px;
+
+    width: 100%;
+}
+
+.labelText {
+    color: $black;
+    text-transform: uppercase;
+}
+
+.selectContainer {
+    padding: 5px;
+
+    border: 1px solid $gray;
+    border-radius: 3px;
+}
+

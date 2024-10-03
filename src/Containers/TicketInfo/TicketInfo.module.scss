@@ -1,0 +1,31 @@
+@import '../../vars/vars';
+
+.mainContainer {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+
+    background-color: $extra-light-gray;
+}
+
+.ticketItem {
+    padding: 20px;
+
+    display: grid;
+    grid-template: 1fr 2fr / 1fr;
+
+    gap: 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about {
+    display: flex;
+    gap: 10px;
+}

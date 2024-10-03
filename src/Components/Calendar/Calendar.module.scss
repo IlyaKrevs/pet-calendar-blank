@@ -1,0 +1,34 @@
+@import '../../vars/vars';
+
+
+.title {}
+
+.itemsContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    background-color: $extra-light-gray;
+    border-radius: 3px;
+}
+
+.descriptionContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.descTitle {}
+
+.descValue {
+    padding: 10px;
+    border: 2px solid $black;
+}
+

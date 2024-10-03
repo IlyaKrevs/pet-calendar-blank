@@ -1,0 +1,14 @@
+@import '../../vars/vars';
+
+.mainContainer {
+    padding: 10px;
+    background-color: $dark-gray;
+    color: $white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    text-transform: uppercase;
+}
